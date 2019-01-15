@@ -33,7 +33,7 @@ function curl_get($url,$post="",$head = array(
     
 };
 function bdsave($link,$BDUSS){
-    $url = "https://pan.baidu.com/rest/2.0/services/cloud_dl?channel=chunlei&web=1&app_id=250528";
+    $url = "https://pan.baidu.com/rest/2.0/services/cloud_dl";
     $post = array(
         'method'=>'add_task',
         'app_id'=>'250528',
